@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verficador de Idade</h1>
+    </header>
+    <section>
+        <div id="verificador">
+            <p>Ano de Nascimento:
+                <label for="ano"></label>
+                <input type="number" id="ano">
+            <p>
+
+            <p>Sexo:                
+                <input type="radio" name="radsex" id="smasc" checked>
+                <label for="smasc">Masculino</label>
+                <input type="radio" name="radsex" id="sfem">
+                <label for="sfem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" onclick="verificador()">
+            </p>
+        </div>
+        <div id="msg">
+            Preencha os dados acima para ver o resultado!
+        </div>
+        <div id="foto">
+            <img id="img" src="" alt="">
+        </div>
+    </section>
+    <footer>
+        <p>&copy GabrielSantos</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
